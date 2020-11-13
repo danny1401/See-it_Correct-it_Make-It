@@ -61,7 +61,7 @@ h2 {margin-bottom: 5px;}
 	position: relative;
 	margin-top: 50px;
 	height: 520px;
-	min-width: 100%;
+	width: 100%;
 	border-top: 3px solid black;
 	border-bottom: 3px solid black;
 	background-color: white;
@@ -111,7 +111,7 @@ button:hover {background-color: whitesmoke;}
 /*---------------------------FOOTER------------------------------*/
 .footer {
 	height: 40px;
-	min-width: 100%;
+	width: 100%;
 	padding: 15px 20px;
 	background-color: white;
 	border-top: 3px solid black;
@@ -146,16 +146,15 @@ button:hover {background-color: whitesmoke;}
 	#maintitle3 {top: 41vw; font-size: 2.8vw;}
 	
 	/* INDEX */
-	#section1 {height: 500px; overflow: auto; font-size: 2.5vw;}
+	#section1 {max-width:100%; height: 500px; overflow: auto; font-size: 2.5vw;}
 	button {height:40px; width:280px; margin:7px 6px;}
 	
-	#sectionI, #leftI, #rightI, #sideI { width:100%; }
+	#sectionI, #leftI, #rightI, #sideI { min-width:100%; }
 	#box1 {top:6vw; width:66vw; height:40vw; padding:1vw 7vw; font-size:2.6vw; margin-bottom: 50px;}
-	
-	#section1 {width:100%;}
+	.btntest {width: 300px; font-size: 20px;}
 	
 	/* FOOTER */
-	#footerI {margin-top: 2vw; height:26vw;}
+	#footerI {margin-top: 2vw; height:26vw; max-width:100%;}
 	#email-F {top: -3vw; font-size: 3.5vw;}
 	
 	#sectionF, .leftF, .midF, .rightF {width:93%; margin-bottom:5vw;}
