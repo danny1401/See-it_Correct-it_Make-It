@@ -52,8 +52,8 @@ h2 {margin-bottom: 5px;}
 #gif {
 	position: absolute;
 	left: 0%;
-	top: 5%;
-	min-width: 100%;
+	top: 13%;
+	width: 100%;
 	height: auto;
 	border-bottom: 3px solid black;
 }
@@ -141,22 +141,22 @@ button:hover {background-color: whitesmoke;}
 /*----------------------------RESPONSIVE DESIGN----------------------------------*/
 @media only screen and (max-width:800px) {
   /* For mobile phones: */
-	#gif {width: 800px;}
+	#gif {width: 100%;}
   
 	#maintitle1 {top: 20vw; font-size: 2.8vw;}
-	#maintitle2 {top: 32.5vw; font-size: 8vw;}
-	#maintitle3 {top: 41vw; font-size: 2.8vw;}
+	#maintitle2 {top: 30vw; font-size: 8vw;}
+	#maintitle3 {top: 37vw; font-size: 2.8vw;}
 	
 	/* INDEX */
-	#section1 {width:800px; height: 500px; overflow: auto; font-size: 2.5vw;}
+	#section1 {width:100%; height: 500px; overflow: auto; font-size: 2.5vw;}
 	button {height:40px; width:280px; margin:7px 6px;}
 	
-	#sectionI, #leftI, #rightI, #sideI { min-width:100%; }
+	#sectionI, #leftI, #rightI, #sideI { width:100%; }
 	#box1 {top:6vw; width:66vw; height:40vw; padding:1vw 7vw; font-size:2.6vw; margin-bottom: 50px;}
-	.btntest {width: 280px; font-size: 20px;}
+	.btntest {width: 300px; font-size: 20px;}
 	
 	/* FOOTER */
-	#footerI {margin-top: 2vw; height:26vw; max-width:100%;}
+	#footerI {margin-top: 2vw; height:26vw; width:100%;}
 	#email-F {top: -3vw; font-size: 3.5vw;}
 	
 	#sectionF, .leftF, .midF, .rightF {width:93%; margin-bottom:5vw;}
