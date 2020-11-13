@@ -1,0 +1,162 @@
+/*---------------------------------------------------------------------------------------------
+REFERENCES
+University of Advanced Technology
+https://www.uat.edu/?fbclid=IwAR268e_DAkbOT2G8iAnGeMea3hz1LGyC-NC-1JjSei-daRJEISawLad89qc
+-----------------------------------------------------------------------------------------------*/
+
+body {
+	padding: 0;
+	margin: 0;
+	background-color: #E0E0E0;
+	font-family: Tahoma, Geneva, sans-serif;
+	overflow-x: hidden;
+}
+div {letter-spacing: 0.4;}
+
+#maintitles {height:50%;}
+.maintitle {
+	text-shadow: 
+		1px 1px 0 #000, -1px 1px 0 #000, 1px -1px 0 #000, -1px -1px 0 #000,
+		0px 1px 0 #000, 0px -1px 0 #000, -1px 0px 0 #000, 1px 0px 0 #000,
+		2px 2px 0 #000, -2px 2px 0 #000, 2px -2px 0 #000, -2px -2px 0 #000,
+		0px 2px 0 #000, 0px -2px 0 #000, -2px 0px 0 #000, 2px 0px 0 #000,
+		1px 2px 0 #000, -1px 2px 0 #000, 1px -2px 0 #000, -1px -2px 0 #000,
+		2px 1px 0 #000, -2px 1px 0 #000, 2px -1px 0 #000, -2px -1px 0 #000
+	; /*https://stackoverflow.com/questions/2570972/css-font-border*/
+	
+	position: relative;
+	color: white;
+	letter-spacing: 4;
+}
+#maintitle1 {top: 9vw; font-size: 2.8vw;}
+#maintitle2 {top: 12.5vw; font-size: 7vw;}
+#maintitle3 {top: 15.5vw; font-size: 3.8vw;}
+
+#midT { position:relative; width:100%; float:left;}
+
+.subtitle {
+	position: relative;
+	top: 7.9vw;
+	width: 35vw;
+	padding: 13px 0;
+	color: white;
+	background-color: #600080;
+	border: 2px solid black;
+	font-size: 2.8vw;
+}
+h2 {margin-bottom: 5px;}
+
+
+
+/*---------------------------INDEX------------------------------*/
+#gif {
+	position: absolute;
+	left: 0%;
+	top: 5%;
+	min-width: 100%;
+	height: auto;
+	border-bottom: 3px solid black;
+}
+#section1 {
+	position: relative;
+	margin-top: 50px;
+	height: 520px;
+	width: 100%;
+	border-top: 3px solid black;
+	border-bottom: 3px solid black;
+	background-color: white;
+	text-align: center;
+}
+#buttons {
+	position: relative;
+	top: 1vw;
+	height: 100px;
+	line-height: 4;
+}
+button {
+	height: 50px;
+	width: 230px;
+	margin: 10px 6px;
+	background-color: #E8E8E8;
+	color: black;
+	border: 1px solid black;
+	text-shadow: none;
+	text-decoration: none;
+	cursor: pointer;
+	font-size: 15px;
+}
+button:hover {background-color: whitesmoke;}
+#box1 {
+	position: relative;
+	top: 4.4vw;
+	height: 18vw;
+	width: 30vw;
+	padding: 1vw 4vw;
+	background-color: white;
+	border: 2px solid black;
+	font-size: 1vw;
+	text-align: left;
+}
+.btntest {
+	width: 300px;
+	font-size: 20px;	
+}
+#sectionI {height:75%;}
+#leftI { position:relative; width:50%; float:left;}
+#rightI { position:relative; width:40%; float:left;}
+#sideI { position:relative; width:3%; float:left;}
+
+
+
+/*---------------------------FOOTER------------------------------*/
+.footer {
+	height: 40px;
+	width: 100%;
+	padding: 15px 20px;
+	background-color: white;
+	border-top: 3px solid black;
+	color: black;
+	float: left;
+	text-align: center;
+}
+#footerI {margin-top: -5vw;}
+
+#icon1 {position: relative; top:-5px;}
+#email-F {
+	position: relative;
+	top: 8px;
+	color: black;
+	font-size: 19px;
+	font-weight: 700; 
+	text-shadow: none;
+	font-family: HelveticaNeue, Helvetica, Arial, "Lucida Grande", sans-serif;
+}
+.leftF {width:30.5%; float:left;}
+.midF {width:39%; float:left;}
+.rightF {width:28%; float:left;}
+
+
+
+
+/*----------------------------RESPONSIVE DESIGN----------------------------------*/
+@media only screen and (max-width:800px) {
+  /* For mobile phones: */
+	#maintitle1 {top: 20vw; font-size: 2.8vw;}
+	#maintitle2 {top: 32.5vw; font-size: 8vw;}
+	#maintitle3 {top: 41vw; font-size: 2.8vw;}
+	
+	/* INDEX */
+	#section1 {height: 500px; overflow: auto; font-size: 2.5vw;}
+	button {height:40px; width:280px; margin:7px 6px;}
+	
+	#sectionI, #leftI, #rightI, #sideI { width:100%; }
+	#box1 {top:6vw; width:66vw; height:40vw; padding:1vw 7vw; font-size:2.6vw; margin-bottom: 50px;}
+	
+	#section1 {width:100%;}
+	
+	/* FOOTER */
+	#footerI {margin-top: 2vw; height:26vw;}
+	#email-F {top: -3vw; font-size: 3.5vw;}
+	
+	#sectionF, .leftF, .midF, .rightF {width:93%; margin-bottom:5vw;}
+}
