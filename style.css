@@ -13,7 +13,7 @@ body {
 }
 div {letter-spacing: 0.4;}
 
-#maintitles {height:50%;}
+#maintitles {height:50%; width:100%;}
 .maintitle {
 	text-shadow: 
 		1px 1px 0 #000, -1px 1px 0 #000, 1px -1px 0 #000, -1px -1px 0 #000,
