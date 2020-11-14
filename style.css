@@ -140,6 +140,7 @@ button:hover {background-color: whitesmoke;}
 /*----------------------------RESPONSIVE DESIGN----------------------------------*/
 @media only screen and (max-width:640px) {
   /* For mobile phones: */
+	#gif {top:14%;}
   
 	#maintitle1 {top: 20vw; font-size: 2.8vw;}
 	#maintitle2 {top: 30vw; font-size: 8vw;}
@@ -149,7 +150,7 @@ button:hover {background-color: whitesmoke;}
 	#section1 {height: 500px; overflow: auto; font-size: 2.5vw;}
 	button {height:40px; width:280px; margin:7px 6px;}
 	
-	#sectionI, #leftI, #rightI, #sideI {min-width:100%;}
+	#sectionI, #leftI, #rightI, #sideI {width:100%;}
 	
 	#box1 {top:6vw; width:66vw; height:40vw; padding:1vw 7vw; font-size:2.6vw; margin-bottom: 50px;}
 	.btntest {width: 250px; font-size: 20px;}
