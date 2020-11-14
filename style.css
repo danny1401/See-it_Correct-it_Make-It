@@ -49,14 +49,15 @@ h2 {margin-bottom: 5px;}
 
 
 /*---------------------------INDEX------------------------------*/
-#gif {
+#gifbox {
 	position: absolute;
 	left: 0%;
 	top: 5%;
-	min-width: 100%;
+	width: 100%;
 	height: auto;
 	border-bottom: 3px solid black;
 }
+#gif {width: 100%;}
 #section1 {
 	position: relative;
 	margin-top: 50px;
@@ -156,7 +157,7 @@ button:hover {background-color: whitesmoke;}
 	.btntest {width: 250px; font-size: 20px;}
 	
 	/* FOOTER */
-	#footerI {margin-top: 2vw; height:26vw;}
+	#footerI {width:100%; margin-top: 2vw; height:26vw;}
 	#email-F {top: -3vw; font-size: 3.5vw;}
 	
 	#sectionF, .leftF, .midF, .rightF {width:93%; margin-bottom:5vw;}
