@@ -51,9 +51,8 @@ h2 {margin-bottom: 5px;}
 /*---------------------------INDEX------------------------------*/
 #gif {
 	position: absolute;
-	left: 0%;
 	top: 13%;
-	min-width: 100%;
+	width: 100%;
 	height: auto;
 	border-bottom: 3px solid black;
 }
